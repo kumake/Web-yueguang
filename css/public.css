@@ -1,0 +1,122 @@
+@charset "gb2312";
+html,body,div,table,th,td,p,ul,li,aa,dl,dt,dd{ font-family:Arial, Helvetica, sans-serif; font-size: 12px; text-decoration: none; padding: 0px; margin:0px; color:#444}
+body{ text-align:center}
+div{ overflow:hidden}
+a{ text-decoration:none; outline:none; }
+table,th,td{ border-collapse:collapse; border-spacing:0px; vertical-align:top}
+ul,li{ list-style-type:none; background-repeat:no-repeat}
+#container{ margin:0px auto;width:1003px; text-align:left}
+a:hover { color:#333333; text-decoration: none}/*访问者操作鼠标通过时的链接 */
+a:active{ color:#990000; text-decoration:underline}/*点击链接*/
+img{ border:none}
+
+
+/*分页样式*/
+#Divpage{width:100%; margin:0 auto; text-align:center; padding-left:10px; padding-top:18px;}
+#Divpage li{ float:left; width:auto; padding:2px;}
+#Divpage li a { color:#333; font-size:12px; }
+#Divpage li a:visited { color:#333; font-size:12px; }
+#Divpage li a:hover { color:#0079b8; font-size:12px; }
+
+#footer{ color:#999999; line-height:24px; margin:20px auto auto 345px;}
+#footer a{ color:#999999; font-weight:bold; padding:0px 14px;}
+#footer a.paddingLeft0{ padding-left:0px;}
+
+
+
+/*sidebar类别*/
+.proLi{ width:160px; line-height:30px; border-bottom:#CCCCCC solid 1px; display:block; background:url(../images/li.jpg) no-repeat 30px 50%; padding-left:50px; margin-left:32px;}
+
+a.nav{ width:100px; text-align:center; display:block; float:left; color:#FFFFFF; line-height:30px;}
+
+*{
+color:#444;
+}
+
+
+#nav{
+margin-left:10px;
+}
+
+#nav li{
+width:104px;
+height:34px;
+line-height:34px;
+float:left;
+text-align:center;
+}
+#nav li a{
+color:#fff;
+font-size:14px;
+font-weight:bold;
+}
+#nav li a:hover{
+color:#000;
+font-size:14px;
+font-weight:bold;
+background:url(../images/head_02_02.jpg);
+display:block;
+}
+
+.lei_01{
+margin-left:10px;
+}
+
+.lei_01 li a{
+font-size:16px;
+font-weight:bold;
+height:30px;
+line-height:30px;
+color:#000;
+}
+
+.lei_02 {
+}
+
+.lei_02 li a{
+font-size:12px;
+height:22px;
+line-height:22px;
+color:#000;
+font-weight:normal;
+}
+#contact {
+padding-top:10px;
+padding-left:20px;
+}
+
+#contact p{
+line-height:25px;
+color:#000;
+}
+
+#neiye_main{
+margin:20px auto;
+width:97%;
+line-height:30px;
+}
+
+
+.index_main_pics{
+height:170px;
+width:155px;
+float:left;
+margin:20px 25px 10px 0px ;
+text-align:center;
+}
+
+
+.index_main_pics p{
+ text-align:center;
+ color:#444;
+ line-height:30px;
+}
+
+.index_main_pics img{
+height:138px;
+}
+.index_main_bo{
+height:138px;
+width:152px;
+float:left;
+}
